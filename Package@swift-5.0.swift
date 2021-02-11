@@ -31,6 +31,4 @@ target.exclude += [
 
 pkg.targets = [target]
 
-pkg.platforms = [
-   .macOS(.v10_10), .iOS(.v8), .tvOS(.v9), .watchOS(.v2)
-]
+pkg.platforms = [.iOS(.v12)]
